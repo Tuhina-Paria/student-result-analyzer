@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Result Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Result Analyzer</h1>
+  <!-- <p>Check console for results</p> -->
+    
+
+  <div class="form">
+    <input type="text" id="name" placeholder="Students Name">
+    <input type="number" id="marks" placeholder="Students Marks">
+   <button onclick="addStudent()">Add Student</button>
+  </div>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Marks</th>
+      <th>Status</th>
+    </tr>
+    <tbody id="tableBody">
+       <!-- JS will insert rows here -->
+    </tbody>
+  </table>
+
+  <div class="summary">
+    <p id="average"></p>
+    <p id="topper"></p>
+
+  </div>
+  </div>
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
