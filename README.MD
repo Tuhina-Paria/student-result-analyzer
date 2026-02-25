@@ -5,8 +5,9 @@ A beginner-friendly JavaScript project that analyzes student results using array
 This project helped me understand how to work with real data and update the UI dynamically.
 
 ## ✨ Features
-- Add student name and marks
+- Add student name,roll and marks
 - Identify pass and fail students
+- Add delete student functionality
 - Calculate average marks
 - Find the topper
 - Display results in a table
